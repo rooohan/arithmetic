@@ -7,6 +7,7 @@
 """
 from collections import OrderedDict
 
+
 def rank_dict():
     list_node = []
 
@@ -25,7 +26,6 @@ def rank_dict():
         return min_node
 
     return rank
-
 
 
 def dijkstra(dict_map, dict_parent, dict_cost):
